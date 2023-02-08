@@ -628,14 +628,14 @@ void loop() {
         //Serial.println(i);
         if(i != 1){
           if(i !=2){
-            WebSerial.print("Event ");
-            WebSerial.print(i);
-            WebSerial.print(" just fired");
+            //WebSerial.print("Event ");
+            //WebSerial.print(i);
+            //WebSerial.print(" just fired");
           }else{
-            WebSerial.print("-");
+            //WebSerial.print("-");
           }
         }else{
-          WebSerial.print("+");
+          //WebSerial.print("+");
         }
         //Serial.println("2,1");
         //Serial.print("event in loop is: ");
@@ -1241,6 +1241,8 @@ int addDailyDoseAmt(int color,int val){
      //Serial.println("2.2.7");
    Serial.print("Blue Daily Dose Amt is: ");
     Serial.println(blueDailyDoseAmtStr);
+    WebSerial.print("Blue Daily Dose Amt is: ");
+    WebSerial.println(blueDailyDoseAmtStr);
     //blueDailyDoseAmtStr.clear();
     //blueDailyDoseAmtStrr.clear();
     delay(500);
@@ -1271,8 +1273,8 @@ int addDailyDoseAmt(int color,int val){
     // geenDailyDoseAmtStrr.clear();   
     Serial.print("Green Daily Dose Amt is: ");
     Serial.println(greenDailyDoseAmtStr);
-
-
+    WebSerial.print("Green Daily Dose Amt is: ");
+    WebSerial.println(greenDailyDoseAmtStr);
     delay(500);
   }else if(color == 3){
      //Serial.println("2.4.1");
@@ -1302,7 +1304,8 @@ int addDailyDoseAmt(int color,int val){
      //yellowDailyDoseAmtStrr.clear();
     Serial.print("Yellow Daily Dose Amt is: ");
     Serial.println(yellowDailyDoseAmtStr);
-    delay(500);
+    WebSerial.print("Yellow Daily Dose Amt is: ");
+    WebSerial.println(yellowDailyDoseAmtStr);    delay(500);
   }else if(color == 4){
     //Serial.println("2.2.1");
     //blueDailyDoseAmtStr = readFile(SPIFFS, "/blueDailyDoseAmt.txt");
@@ -1328,8 +1331,8 @@ int addDailyDoseAmt(int color,int val){
      //Serial.println("2.2.7");
    Serial.print("Purple Daily Dose Amt is: ");
     Serial.println(purpleDailyDoseAmtStr);
-    //blueDailyDoseAmtStr.clear();
-    //blueDailyDoseAmtStrr.clear();
+    WebSerial.print("Purple Daily Dose Amt is: ");
+    WebSerial.println(purpleDailyDoseAmtStr);
     delay(500);
   }
   return retVal;

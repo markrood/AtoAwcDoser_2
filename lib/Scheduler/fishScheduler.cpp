@@ -284,8 +284,8 @@ void FishSched::setFlag(int evt,int val){
 
 void FishSched::printArray(){
   for(int i=0;i>37;i++){
-    //Serial.print(flags[i]);
-    //Serial.println(" ");
+    Serial.print(flags[i]);
+    Serial.println(" ");
   }
 
 }

@@ -106,7 +106,7 @@ bool Doser::dose(int color){
     bool retVal = true;
     if(firstDoseTime){
         //Serial.println("D+");
-        WebSerial.println("D");
+        //WebSerial.println("D");
         //Serial.println(firstDose);
         doseRun = 0; //TODO
         firstDoseTime = false;
@@ -127,7 +127,7 @@ bool Doser::dose(int color){
         motor(color,1);
     }else{
         //Serial.println("E");
-        WebSerial.println("E");
+        //WebSerial.println("E");
         unsigned long now = millis();      //******************TODO this is running
         elapse = now - firstDose;
         //String strElapse = String(elapse);
