@@ -1,0 +1,17 @@
+added sensor to Ato(sensor) and Awc(sensor)
+
+in main loop run evap
+
+in main in doAto() added sensor.setEvaped(false); after ato ran
+in check clear the set flag in mysched
+
+changen println("T and t") to print(
+
+in Ato 
+	change if(!sens) to if(sens)
+
+	added elapse = millis - now right before "ran to long check"
+
+	added sensor.fill() to doAto where we start the pump with an if(TEST) around it
+
+

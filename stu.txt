@@ -1,0 +1,40 @@
+hallway
+  single box
+	3-way wire
+	power wire
+single box
+  plug
+
+sink
+  fist single box
+	power
+	wire to all under cabinet lights
+
+Under cabinet wire
+
+disposal plug	
+  switch wire disposal
+  hot
+
+double
+  sink upper light
+  garbage disposal wire
+
+range box
+
+under cablinet wire
+
+microwve box
+
+plugs and under cabinet wires across front wall
+
+double
+  hot for porch light
+  porch switch
+  ceiling wires*
+  3-way wire*
+
+missed refrigerator plug
+
+  
+	
